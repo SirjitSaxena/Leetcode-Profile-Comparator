@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCode Profile Comparator",
+    "version": "1.0",
+    "description": "Compare your LeetCode profile with your competitors.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "https://simplescraper.io/api/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+      }
+    },
+    "icons": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  }
+  
